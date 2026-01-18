@@ -107,8 +107,8 @@ exports.subprocesses = {
 	validator: 1,
 	/** for user authentication */
 	verifier: 1,
-	localartemis: 1,
-	remoteartemis: 1,
+	localartemis: 0,
+	remoteartemis: 0,
 	friends: 1,
 	chatdb: 1,
 	modlog: 1,
@@ -345,22 +345,22 @@ exports.restrictLinks = false;
   * chat modchat - default minimum group for speaking in chatrooms; changeable with /modchat
   * @type {false | string}
  */
-exports.chatmodchat = false;
+exports.chatmodchat = '+';
 /**
  * battle modchat - default minimum group for speaking in battles; changeable with /modchat
  * @type {false | AuthLevel}
  */
-exports.battlemodchat = false;
+exports.battlemodchat = '+';
 /**
  * PM modchat - minimum group for sending private messages or challenges to other users
  * @type {false | AuthLevel}
  */
-exports.pmmodchat = false;
+exports.pmmodchat = '+';
 /**
  * ladder modchat - minimum group for laddering
  * @type {false | GroupSymbol}
  */
-exports.laddermodchat = false;
+exports.laddermodchat = '@';
 
 /**
  * forced timer - force the timer on for all battles
