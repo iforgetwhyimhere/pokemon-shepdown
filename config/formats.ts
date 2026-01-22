@@ -48,6 +48,14 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		section: "S/V Singles",
 	},
 	{
+		name: "UwU",
+		desc: "uwu",
+		mod: 'gen9',
+		team: 'random',
+		bestOfDefault: true,
+		ruleset: ['Endless Battle Clause'],
+	},
+	{
 		name: "[Gen 9] Random Battle",
 		desc: `Randomized teams of Pok&eacute;mon with sets that are generated to be competitively viable.`,
 		mod: 'gen9',
